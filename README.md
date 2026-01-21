@@ -223,8 +223,7 @@ Running `app.py` also calls `create_tables()` on startup, so in most cases you d
 
 ## ⚖️ License
 
-Add your preferred license (e.g. MIT) in a `LICENSE` file if you intend to share, distribute, or open source this project.
-
+Others
 ---
 
 ## 🙌 Acknowledgements
