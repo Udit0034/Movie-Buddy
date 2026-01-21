@@ -614,7 +614,7 @@ def history_page():
             c2.markdown(f"### {movie.get('title')}")
             # Handle cases where rating might be None
             if rating:
-                c2.markdown(f"**Your Rating:** {"⭐" * int(rating)} ({rating}/5)")
+                c2.markdown(f"**Your Rating:** {'⭐' * int(rating)} ({rating}/5)")
             else:
                 c2.markdown(f"**Your Rating:** Not Rated")
             c2.markdown(f"**Genres:** {movie.get('genres')}")
